@@ -22,6 +22,7 @@ h1 {
   font-family: 'Rum Raisin', sans-serif;
   color: #d4458d;
   font-weight: 600;
+  font-size: 4rem; /* makes the heading big */
   margin: 0;
 }
 
