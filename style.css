@@ -1,22 +1,42 @@
-/* Basic layout and readable defaults */
+/* Apply the aesthetic font + soft colors */
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff5f9;
   color: #333;
   margin: 40px;
 }
 
+/* Soft rounded box header */
+
 header {
-  background: #ffe5ec;
-  padding: 20px;
-  border-radius: 12px;
+  background: #ffd7e8;
+  padding: 40px;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
+
+/*Pretty main title */
 
 h1 {
-  color: #d23b6e;
+  color: #d4458d;
+  font-weight: 600;
+  margin: 0;
 }
 
+/* Clean section layout */
+
 section {
+  background: white;
+  padding: 30px;
+  border-radius: 18px;
   margin-top: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
+}
+
+/* Make the hobby list cute */
+ul {
+  padding-left: 20px;
+  line-height: 1.8em;
 }
