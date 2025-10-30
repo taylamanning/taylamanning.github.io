@@ -49,12 +49,12 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #d23b6e; /* cute pink for links */
+  color: #E195AB; /* cute pink for links */
   font-weight: 600;
   margin: 0 15px;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #ff99c8; /* lighter pink on hover */
+  color: #FFCCE1; /* lighter pink on hover */
 }
