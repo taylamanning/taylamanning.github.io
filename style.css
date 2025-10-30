@@ -1,22 +1,13 @@
 /* Apply the aesthetic font + soft colors */
-
-/* Body/paragraphs use Poppins */
-
-body, p, li {
+body {
   font-family: 'Poppins', sans-serif;
-  background-color: #fff5f9; /* background color*/
-  color: #333; /* text color */
-  margin: 40px;
+  background-color: #fff5f9;
+  color: #333;
+  margin: 0;
+  padding: 40px;
 }
 
-/* Headings use Rum Raisin */
-
-h1, h2, h3 {
-  font-family: 'Rum Raisin', cursive;
-  color: #d4458d; /* heading color */
-
 /* Soft rounded box header */
-
 header {
   background: #ffd7e8;
   padding: 40px;
@@ -25,8 +16,7 @@ header {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
-/*Pretty main title */
-
+/* Pretty main title */
 h1 {
   color: #d4458d;
   font-weight: 600;
@@ -34,7 +24,6 @@ h1 {
 }
 
 /* Clean section layout */
-
 section {
   background: white;
   padding: 30px;
